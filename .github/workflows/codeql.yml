@@ -19,7 +19,7 @@ jobs:
           coverity_url: http://aws-sup-pranalim01.aws.internal:8081/
           coverity_user: admin
           coverity_passphrase: Admin@123
-                            
+          coverity_install_directory: /Users/pranalim/Setup/Coverity/cov-analysis/cov-2025.6.0/                  
           ### Coverity Connect users - Uncomment below
           coverity_local: true
                        
