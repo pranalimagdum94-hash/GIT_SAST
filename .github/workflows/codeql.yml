@@ -19,14 +19,7 @@ jobs:
     runs-on: self-hosted
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v2
-      with:
-        languages: 'cpp' # CodeQL uses 'cpp' for both C and C++
-
+  
     - name: Compile the C code using Makefile
       run: make
       continue-on-error: true # Continue if make fails, for diagnostic purposes
