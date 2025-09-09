@@ -33,3 +33,11 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
+    
+    - name: Black Duck Security Scan
+      uses: blackduck-inc/black-duck-security-scan@v2.3.0
+      with:
+        coverity_url: http://aws-sup-pranalim01.aws.internal:8081/
+        coverity_user: admin
+        coverity_passphrase: Admin@123
+        coverity_install_directory: /Users/pranalim/Setup/Coverity/cov-analysis/cov-2025.6.0
