@@ -4,6 +4,7 @@
 
 int main() {
     // Allocate memory for 5 characters
+    char password[] = "Hello, World!";
     char *buffer = (char*)malloc(5 * sizeof(char));
 
     if (buffer == NULL) {
