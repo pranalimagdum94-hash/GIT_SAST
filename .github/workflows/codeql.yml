@@ -19,11 +19,13 @@ jobs:
           coverity_url: http://aws-sup-pranalim01.aws.internal:8081/
           coverity_user: admin
           coverity_passphrase: Admin@123
+          coverity_project_name: Git_Action 
+          coverity_stream_name: Git_Action
           coverity_install_directory: /Users/pranalim/Setup/Coverity/cov-analysis/cov-2025.6.0/                  
           ### Coverity Connect users - Uncomment below
           coverity_local: true
                        
           ### PULL REQUEST COMMENTS:
           coverity_prComment_enabled: true
-          github_token: ${{ secrets.GITHUB_TOKEN }} # Required when PR comments is enabled 
+          #github_token: ${{ secrets.GITHUB_TOKEN }} # Required when PR comments is enabled 
                             
