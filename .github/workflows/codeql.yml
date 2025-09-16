@@ -26,6 +26,6 @@ jobs:
           coverity_local: true
                        
           ### PULL REQUEST COMMENTS:
-          coverity_prComment_enabled: true
+          #coverity_prComment_enabled: true
           #github_token: ${{ secrets.GITHUB_TOKEN }} # Required when PR comments is enabled 
                             
