@@ -23,7 +23,7 @@ jobs:
           coverity_stream_name: Git_Action
           #coverity_install_directory: /Users/pranalim/Setup/Coverity/cov-analysis/cov-2025.6.0/                  
           ### Coverity Connect users - Uncomment below
-          coverity_local: true
+          #overity_local: true
                        
           ### PULL REQUEST COMMENTS:
           coverity_prComment_enabled: true
