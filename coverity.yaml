@@ -1,2 +1,6 @@
-analyze:
-  location: local
+#analyze:
+  #location: local
+commit:
+   local:
+      format: json
+      path: /Users/pranalim/Documents/GitHub
