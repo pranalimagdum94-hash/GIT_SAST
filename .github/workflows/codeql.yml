@@ -21,7 +21,7 @@ jobs:
           coverity_passphrase: Admin@123
           coverity_project_name: Git_Action 
           coverity_stream_name: Git_Action
-          #coverity_install_directory: /Users/pranalim/Setup/Coverity/cov-analysis/cov-2025.6.0/                  
+          coverity_install_directory: /Users/pranalim/Setup/Coverity/cov-analysis/cov-2025.6.0/                  
           ### Coverity Connect users - Uncomment below
           #overity_local: true
                        
