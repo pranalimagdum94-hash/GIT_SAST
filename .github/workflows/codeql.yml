@@ -16,11 +16,11 @@ jobs:
         uses: blackduck-inc/black-duck-security-scan@v2.3.0
         with:
           ### SCANNING: Required fields
-          coverity_url: http://aws-sup-pranalim01.aws.internal:8081/
-          coverity_user: admin
-          coverity_passphrase: Admin@123
-          coverity_project_name: Git_Action 
-          coverity_stream_name: Git_Action
+          #coverity_url: http://aws-sup-pranalim01.aws.internal:8081/
+          #coverity_user: admin
+          #coverity_passphrase: Admin@123
+          #coverity_project_name: Git_Action 
+          #coverity_stream_name: Git_Action
           #coverity_install_directory: /Users/pranalim/Setup/Coverity/cov-analysis/cov-2025.6.0/                  
           ### Coverity Connect users - Uncomment below
           coverity_local: true
