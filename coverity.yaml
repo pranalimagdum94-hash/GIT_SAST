@@ -3,4 +3,5 @@
 commit:
    local:
       format: json
-      path: /Users/pranalim/Documents/GitHub/pranali_report.json
+      path: /Users/pranalim/Documents/GitHub/test.json
+
